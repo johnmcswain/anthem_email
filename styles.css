@@ -1,0 +1,390 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,600italic,700,700italic,300);
+@import url(https://dl.dropboxusercontent.com/u/609330/anthem_email/font-awesome-4.5.0/css/font-awesome.min.css);
+/* Basics */
+body {
+	margin: 0 !important;
+	padding: 0  !important;
+	background-color: #ffffff;
+	font-family:'Open Sans', sans-serif;
+	color:#191919;
+}
+table {
+	border-spacing: 0;
+	font-family:'Open Sans', sans-serif;
+	color: #333333;
+}
+
+td {
+	padding: 0;
+	padding-top:10px;
+}
+img {
+	border: 0;
+}
+div[style*="margin: 16px 0"] {
+	margin:0 !important;
+}
+h1,h3,h4,a {
+	font-weight: 300;
+	margin:0 auto;
+}
+
+
+em{
+	font-weight: 700;
+}
+p{
+	font-weight:100;
+	font-size: 120%;
+	margin: 0;
+}
+
+hr{
+	height:2px;
+	background-color:rgb(235,236,237);
+	color:rgb(235,236,237);
+	border:none;
+	margin: 30px 0;
+}
+
+a {
+	color: #ee6a56;
+	text-decoration: underline;
+}
+
+i{
+	padding:14px 0 0 18px  !important;
+
+}
+ul,li{
+	margin:0  !important;
+	padding:0  !important;
+	text-decoration: none  !important;
+	display: inline  !important;
+}
+.bold{
+	font-weight: 700;
+}
+
+.normal{
+	font-weight: 600;
+}
+.heavier{
+	font-weight: 500;
+}
+
+.larger{
+	font-size:1.3em;
+}
+.center{
+	text-align: center !important;
+}
+
+.aboutApp{
+	background-color:white;
+	width:35%;
+	border-top: 5px solid rgb(238,95,71);
+}
+
+.aboutApp h3{
+	position:relative;
+	top:10px;
+}
+
+.margin-top{
+	margin-top:15px;
+}
+
+
+.anthemBlue{
+	color:rgb(31,140,227);
+}
+
+.anthemBlueBackground{
+	background-color:rgb(31,129,210);
+
+}
+
+
+
+.white{
+	color:white !important;
+}
+
+.grey{
+	color:rgb(113,123,132)  !important;
+}
+.wrapper {
+	width: 100% !important;
+	table-layout: fixed !important;
+	-webkit-text-size-adjust: 100%   !important;
+	-ms-text-size-adjust: 100%   !important;
+}
+.webkit {
+	width: 100%   !important;
+	/*max-width: 600px !important;*/
+	margin: 0 auto   !important;
+}
+.outer {
+	margin: 0 auto   !important;
+	width: 100%   !important;
+	max-width: 600px !important;
+}
+.inner {
+	padding: 10px  !important;
+}
+.contents {
+	width: 100%  !important;
+}
+
+.h1 {
+	font-size: 21px;
+	font-weight: bold;
+	margin-bottom: 18px;
+}
+.h2 {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 12px;
+}
+.full-width-image img {
+	width: 100%;
+	max-width: 600px;
+	height: auto;
+}
+
+.socialMediaCircle{
+	border-radius:50%;
+	width: 60px;
+	height: 60px;
+	background-color: grey;
+	float:right;
+	margin: 25px 5px  !important;
+}
+
+
+
+.leftPadding{
+	margin-left: 2%;
+}
+
+.moreLeftPadding{
+	margin-left: 29%;
+}
+
+.padding{
+	padding-left:2%;
+}
+.actionItem{
+	background-color:rgb(238,95,71);
+	text-align:center;
+	padding:12px;
+	font-family:'Open Sans', sans-serif;
+	width:150px;
+	margin:0 0 0 5%;
+	float:left;
+}
+
+.actionItem a{
+	text-decoration:none;
+	color:white;
+}
+.joggerBkgrnd{
+	background:url('https://dl.dropboxusercontent.com/u/609330/anthem_email/background.jpg') no-repeat;
+	background-size:cover;
+	height:300px;
+}
+
+.top{
+	vertical-align: top  !important;
+	display: block;
+}
+
+.spacer{
+	height:20px  !important;
+}
+
+.two-column .text{
+		display: inline;
+}
+#socialMediaContainer{
+	float:right;
+	width:100%;
+	margin: auto  !important;
+}
+
+
+#anthemLogo{
+	margin:0 2% !important;
+	width:200px;
+	float:left;
+}
+
+#viewInBrowserLink{
+	font-size:.6em;
+}
+#activationCode{
+	background-color:rgba(255,255,255,.6);
+	border: 2px dashed #bbb;
+	width:110px;
+	text-align:center;
+	font-size:1.2em;
+	padding:5px;
+	margin:5% 40px;
+}
+
+
+
+/* One column layout */
+.one-column .contents {
+	text-align: left  !important;
+}
+.one-column p {
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+
+/*Two column layout*/
+.two-column {
+	text-align: center;
+	font-size: 0;
+}
+.two-column .column {
+	width: 100%  !important;
+	max-width: 300px !important;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.two-column .modified {
+	width: 100%;
+	max-width: none;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.wider{
+	width:130%  !important;
+}
+.two-column .contents {
+	font-size: 14px;
+	text-align: left;
+}
+.two-column img {
+	max-width: 165px;
+	height: auto;
+	display:inline;
+}
+.two-column .text img{
+
+}
+.two-column .appBadge{
+	width:120px  !important;
+	margin-top:80%;
+	display: inline;
+}
+
+.icon{
+	width:50px;
+	margin:0 3px 0 0;
+}
+
+.centeredIcon{
+	display: none;
+}
+
+.inline{
+	display: inline;
+}
+
+#toolsImage{
+	width:175px;
+	margin-left:5%;
+	margin-bottom: 5%;
+}
+
+
+@media screen and (max-width: 640px) {
+
+	.webkit {
+		max-width: 480px !important;
+		margin: 0 auto  !important;
+	}
+	.outer {
+		margin: 0 auto  !important;
+		/*width: 100%  !important;*/
+		max-width: 480px !important;
+	}
+	.two-column .column{
+		max-width: 60% !important;
+	}
+
+	.two-column .appBadge{
+		margin-top:0 !important;
+	}
+	.icon{
+		width:50px !important;
+		margin-left:40% !important;
+	}
+	.actionItem{
+		margin:auto 18% !important;
+	}
+	.headline{
+		font-size: 1.6em  !important;
+	}
+	.wider{
+		max-width: 300px  !important;
+	}
+
+	.moreLeftPadding{
+		margin-left: 0  !important;
+	}
+	.two-column img .icon{
+		width:520px  !important;
+	}
+
+	.two-column .modified {
+		max-width: 300px  !important;
+
+	}
+	.top{
+		display: none !important;
+	}
+
+	.centeredIcon{
+		display: block !important;
+	}
+
+	.aboutApp{
+		width:100%  !important;
+		text-align:center  !important;
+	}
+
+
+	#activationCode{
+		margin-left: 25%  !important;
+	}
+	#viewInBrowserLink{
+		display: none  !important;
+	}
+
+	#anthemLogo{
+
+	}
+
+	#toolsImage{
+		width:175px  !important;
+		margin-left:18%  !important;
+		margin-bottom: 5%  !important;
+	}
+	#socialMediaContainer{
+	   float:right;
+		 width:100%;
+		 padding-right:23%;
+  }
+	.socialMediaCircle{
+		margin-left:6%  !important;
+		float: right  !important;
+	}
+
+}
